@@ -6,7 +6,7 @@ body {
 }
 .calc-container {
     display: flex;
-    background: #B2D6FF;
+    background: black;
     width: 1000px;
     height: 1200px;
     flex-direction: column;
@@ -21,16 +21,16 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 850px;
+    width: 900px;
     height: 200px;
     font-size: 100px;
-    border: 5px solid #fff111;
+    background-color: grey;
+    border: 5px solid black;
 }
 
 .calc-buttons {
-    width: 850px;
-    height: 800px;
-    border: 5px solid #1beb00;
+    width: 900px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -42,13 +42,29 @@ body {
     justify-content: space-evenly;
 }
 
- .sub-row { 
+.sub-row .digits {
+    background-color: teal;
+}
+
+.sub-row { 
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     font-size: 30px;
-    border: 2px solid darkblue;
+    border: 1px solid darkblue;
     cursor: pointer;
+}
+
+.digits {
+    background-color: teal;
+}
+
+.operators {
+    background-color: orange;
+}
+
+.special {
+    background-color: lightseagreen;
 }
